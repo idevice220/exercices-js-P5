@@ -1,0 +1,50 @@
+
+header{
+    background-color: #FFCC99;
+    box-shadow: rgba(204, 204, 204, 0.2) 2px 2px 2px 0px ;
+
+}
+
+main{
+    background-color: #E6F2FF;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    background-color: #B3D9FF;
+}
+
+footer{
+    background-color: #99CC99;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+main aside{
+    flex : 1;
+    border: solid 1px #CCC;
+}
+
+main section{
+    flex : 3;
+    margin: 20px;
+}
+
+footer{
+    border: solid 1px #CCC;
+    box-shadow: rgba(204, 204, 204, 0.2) 2px 2px 2px 0px ;
+
+}

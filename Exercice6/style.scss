@@ -1,0 +1,10 @@
+/* VARIABLES */
+$blue : rgb(0, 0, 255);
+
+ul{
+    li{
+        color: $blue;
+        padding-left: 10px;
+        margin: 15px;
+    }
+}
